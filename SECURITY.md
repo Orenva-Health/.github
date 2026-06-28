@@ -1,3 +1,5 @@
+<!-- TODO: founder to reconcile security@ vs admin@ before this is canonical -->
+
 # Security policy — Orenva Health
 
 Thank you for helping keep Orenva and the clinicians and patients
@@ -105,10 +107,10 @@ If your research surfaces real patient or clinician data:
 ## Recognition
 
 We do not yet run a paid bug bounty. We credit researchers who
-report valid vulnerabilities in our security advisories and on a
-forthcoming "Acknowledgements" page on our site, unless you ask to
-remain anonymous. A paid program is on our roadmap once production
-traffic justifies it.
+report valid vulnerabilities in our security advisories and on an
+"Acknowledgements" page on our site, unless you ask to remain
+anonymous. A paid program is on our roadmap once production traffic
+justifies it.
 
 ## Disclosures
 

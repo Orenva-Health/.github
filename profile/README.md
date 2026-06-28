@@ -25,8 +25,8 @@ Information and coordination — not a replacement for your doctor.
 
 ### Where we operate
 
-Primary market **India**, plus the **UK** and **Germany**. Built by a team in
-the UK and Germany.
+Primary market **India**, plus the **UK** and **Germany**. Built across
+**India, the UK, and Germany**.
 
 ### Your data, in your region
 
@@ -37,6 +37,9 @@ US-by-default afterthought:
 - **EU-hosted inference** — Mistral (Paris); no OpenAI, no US-hosted models
 - **Region-pinned application** — Vercel London (`lhr1`) / Mumbai (`bom1`)
 - **EU-hosted monitoring** — Sentry EU, PostHog EU
+
+The full posture is published at
+[orenvahealth.com/en-GB/trust](https://orenvahealth.com/en-GB/trust).
 
 ### Compliance posture
 
@@ -54,7 +57,8 @@ The product is pre-launch. Join the waitlist at
 
 ### For investors
 
-Email [orenva.health@gmail.com](mailto:orenva.health@gmail.com) for portal access.
+Email [investors@orenvahealth.com](mailto:investors@orenvahealth.com) for
+portal access.
 
 ### For security researchers
 
@@ -64,10 +68,55 @@ and PGP key at
 
 ### Team
 
-- **[Geet Patil](https://www.linkedin.com/in/geet-patil-5391b5189/)** — Founder & CEO
-- **[Jordan Gilbert](https://www.linkedin.com/in/eu-jordangilbert/)** — Co-founder & CTO
+- **[Geet Patil](https://www.linkedin.com/in/geet-patil-5391b5189/)** —
+  Founder & CEO. Architect of the orenva thesis; healthcare partnerships
+  across clinic, pharmacy, and insurance networks; product and commercial
+  leadership through multiple early-stage builds; operates between India and
+  Europe (Schweinfurt, Germany · originally Mumbai).
+- **[Jordan Gilbert](https://www.linkedin.com/in/eu-jordangilbert/)** —
+  Co-founder & CTO. Built the public-facing orenva platform on Next.js 14
+  + TypeScript; founder of UK Web Marketing (multi-vertical web-platform
+  agency); 20+ years building websites; previously shipped Brother
+  Sylvester and Sweatty Limited (London area, United Kingdom).
 
 ### Repositories
 
-- [Orenva](https://github.com/Orenva-Health/Orenva) — the platform: consumer app, marketing site, investor portal
+- Orenva — the platform: consumer app, marketing site, investor portal
+  (private — pre-launch)
 - [Orenva-Compliance](https://github.com/Orenva-Health/Orenva-Compliance) — SOC 2-aligned policy pack (private)
+
+---
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Orenva Health",
+  "alternateName": "Orenva",
+  "url": "https://orenvahealth.com",
+  "logo": "https://orenvahealth.com/logo.png",
+  "description": "The connective layer for healthcare — one health context across AI Doctor, Pharmacy, Diet & Fitness, Therapy, Insurance, and Store. EU- and India-sovereign by design.",
+  "foundingDate": "2026",
+  "areaServed": ["IN", "GB", "DE"],
+  "knowsLanguage": ["en", "hi", "de"],
+  "email": "investors@orenvahealth.com",
+  "sameAs": [
+    "https://github.com/Orenva-Health",
+    "https://www.linkedin.com/company/orenvahealth"
+  ],
+  "founder": [
+    {
+      "@type": "Person",
+      "name": "Geet Patil",
+      "jobTitle": "Founder & CEO",
+      "sameAs": "https://www.linkedin.com/in/geet-patil-5391b5189/"
+    },
+    {
+      "@type": "Person",
+      "name": "Jordan Gilbert",
+      "jobTitle": "Co-founder & CTO",
+      "sameAs": "https://www.linkedin.com/in/eu-jordangilbert/"
+    }
+  ]
+}
+```
